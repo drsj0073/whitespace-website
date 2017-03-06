@@ -1,0 +1,16 @@
+.large-hero {
+	background-image: url(../../assets/images/hero_home.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	position: relative;
+
+	&__text-content {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		widows: 100%;
+		text-align: center;
+	}
+}
